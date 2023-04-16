@@ -1,0 +1,18 @@
+***append()메소드
+   인수로 전달된 값을 문자열로 변환한 후, 해당 문자열의 마지막에 추가하는 것. 즉 이어붙이는 것.
+
+
+[ JTabbbebdpane] 탭만들기
+tabbedPane.addTab("탭이름", 탭넘버);
+
+[JTable] 표나 엑셀같은 화면 만들기
+JTable(Object[][] rowData(데이터), Object[] columnNames(목록))
+JTable(Vector rowData, Vector columnNames) / (JTableTestVector)
+=> 벡터는 리스트의 후손 따라서 스크롤패인 만들어야함.
+배열은 데이터 추가 삭제, 변경에 부적하다.  이 때 리스트를 사용.
+
+
+선택한 행의 정보를 rowdata로 부터 가져와서 그 정보를 각각의 입력창에 출력
+
+[벡터 문자 바꾸기] (VectorTest)
+set(int index, E element)  => int 번째 문자 E로 바꾸기
